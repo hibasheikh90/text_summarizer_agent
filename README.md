@@ -1,6 +1,10 @@
 Gemini-Powered Text Summarizer Agent
+
 Overview
 Yeh ek simple chatbot agent hai jo Google Gemini AI ke API ko use karke user ke diye hue text ka summary banata hai. Yeh Chainlit framework par bana hai jo chat applications develop karna easy banata hai.
+
+
+
 
 Features
 User se input text leta hai.
@@ -15,6 +19,8 @@ Real-time chat interface mein user ke messages ka summary reply karta hai.
 
 API key environment variable .env file se securely load karta hai.
 
+
+
 Technologies Used
 Python 3.8+
 
@@ -26,12 +32,16 @@ dotenv — Load environment variables from .env file.
 
 Async programming — Chat events aur API calls asynchronous hain for better performance.
 
+
+
 How It Works
 API Key Setup:
 
 .env file mein GEMINI_API_KEY set karni hoti hai.
 
 Code us key ko environment se leta hai aur Gemini AI ko configure karta hai.
+
+
 
 Model Initialization:
 
@@ -45,6 +55,8 @@ models/text-bison-001
 
 Pehla jo model available hota hai use load karta hai.
 
+
+
 User Interaction:
 
 User chat mein koi bhi text bhejta hai.
@@ -54,6 +66,8 @@ Agent text ko Gemini model ko bhejta hai prompt ke saath jisme summary banani ho
 Gemini model summarized text generate karta hai.
 
 Agent summarized text user ko chat mein wapas bhejta hai.
+
+
 
 Validation:
 
